@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "systemName": "MyMs",
+      "action": "build"
+    },
+    {
+      "systemName": "MyKafka",
+      "action": "connect",
+      "connectionData": {
+        "brokers": "10.0.0.45:9092"
+      }
+    }
+  ]
+}

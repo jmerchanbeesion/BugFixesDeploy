@@ -1,0 +1,41 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "topic",
+        "type": "string"
+      },
+      {
+        "name": "partition",
+        "type": "integer"
+      },
+      {
+        "name": "message",
+        "type": "KafkaMessage"
+      }
+    ],
+    "statements": [
+      {
+        "command": "ConsoleLog",
+        "expression": "JsonStringify(^message)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "fromBeginning": false,
+  "groupId": "capentrymain",
+  "isParameterizedGroupId": false,
+  "parameterizedErrorTopic": {
+    "configParameterName": null
+  },
+  "parameterizedGroupId": {
+    "configParameterName": null
+  },
+  "parameterizedTopics": [],
+  "systemName": "MyKafka",
+  "topics": [
+    "kpn-ngc-dev-int_CapEntryMain"
+  ],
+  "useErrorTopic": false
+}

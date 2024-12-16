@@ -1,0 +1,22 @@
+{
+  "systems": [
+    {
+      "name": "MyKafka",
+      "type": "Kafka",
+      "x": 543.0198974609375,
+      "y": 180.00852584838867
+    },
+    {
+      "name": "MyMs",
+      "type": "Microservice",
+      "x": 296.0198974609375,
+      "y": 179.00852584838867
+    }
+  ],
+  "references": [
+    {
+      "fromSystemName": "MyMs",
+      "toSystemName": "MyKafka"
+    }
+  ]
+}
